@@ -2,7 +2,7 @@
  import telefono from '../assets/imagenes/iconos/telefono.png'
  import correo from '../assets/imagenes/iconos/correo.png'
  import linkedin from '../assets/imagenes/iconos/linkedin.png'
- import Descragar from '../assets/imagenes/iconos/descargas.png'
+ import descargar from '../assets/imagenes/iconos/descargas.png'
  import github from '../assets/imagenes/iconos/github.png'
  import analisis from '../assets/imagenes/certificados/analisis.jpg'
  import coursera from '../assets/imagenes/certificados/coursera.jpg'
@@ -102,7 +102,7 @@
           </a>
           {/* Botón Descargar CV */}
           <a href='/public/Hoja_de_vida.pdf' download='Hoja_de_vida_Angelica.pdf' className='mt-2 bg-purple-900 text-white p-4 rounded-xl flex items-center justify-center gap-3 hover:bg-purple-800 transition-transform active:scale-95 font-bold shadow-md'>
-            <img src={Descragar} alt="" className="w-5 h-5 invert" />
+            <img src={descargar} alt="" className="w-5 h-5 invert" />
              Descargar CV
           </a>
     </div>
