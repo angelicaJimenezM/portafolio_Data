@@ -11,8 +11,8 @@
  import recursos_humanos from '../assets/imagenes/recursos_humanos.png'
  import musica from '../assets/imagenes/musica.png'
  import ventas from '../assets/imagenes/ventas.png'
- import me from '../assets/imagenes/me.jpeg'
- 
+ import foto from '../assets/imagenes/foto.jpeg'
+
  export function Principal() {
   return (
     <>
@@ -51,7 +51,7 @@
                Este portafolio no es solo lo que sé hoy, sino todo lo que estoy construyendo para llegar más lejos.
               </p>
               <div className="flex-shrink-0 mt-6 md:mt-0">
-              <img src={me} alt="Angelica Jiménez" 
+              <img src={foto} alt="Angelica Jiménez" 
           className="w-72 md:w-80 h-auto rounded-3xl shadow-[0_20px_50px_rgba(125,97,194,0.3)] border-4 border-white object-cover"/>
               </div>
             </div>
