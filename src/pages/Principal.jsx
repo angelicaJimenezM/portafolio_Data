@@ -5,7 +5,7 @@
  import descargar from '../assets/imagenes/iconos/descargas.png'
  import github from '../assets/imagenes/iconos/github.png'
  import analisis from '../assets/imagenes/certificados/analisis.jpg'
-import coursera from '../assets/imagenes/certificados/coursera.jpg'
+
  import power from '../assets/imagenes/certificados/power.jpg'
  import excel from '../assets/imagenes/certificados/excel.jpg'
  import recursos_humanos from '../assets/imagenes/recursos_humanos.png'
@@ -241,14 +241,7 @@ import coursera from '../assets/imagenes/certificados/coursera.jpg'
     <p className='text-sm bg-gray-100 text-[#ab45ff]  px-3 py-1 rounded-full font-semibold'>Marzo 2026</p>
     </div>
   </div>
-  <div className='w-80 h-full overflow-hidden shadow-xl rounded-2xl '>
-    <img src={coursera} alt="Certificado Coursera" className='w-full h-full object-cover' />
-    <p className='text-[#7d61c2] font-bold px-2'>Aspectos Basicos: Datos, Datos en todas partes</p>
-      <div className='flex justify-between items-start px-2'>
-    <p className='text-gray-600 font-medium'>Coursera</p>
-    <p className='text-sm bg-gray-100 text-[#ab45ff]  px-3 py-1 rounded-full font-semibold'>Octubre 2025</p>
-      </div>
-  </div>
+ 
   <div className='w-80 h-full shadow-xl rounded-2xl '>
     <img src={excel} alt="Certificado Excel" />
     <p className='text-[#7d61c2] font-bold px-2'>Excel aplicado</p>
