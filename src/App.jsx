@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <Router>
+        
           <Routes>
             {/* 2. Úsalo con Mayúscula en element */}
             <Route path='/' element={<Principal />} />
