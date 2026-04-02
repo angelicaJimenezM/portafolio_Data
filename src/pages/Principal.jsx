@@ -12,6 +12,7 @@
  import musica from '../assets/imagenes/musica.png'
  import ventas from '../assets/imagenes/ventas.png'
  import me from '../assets/imagenes/me.jpeg'
+ 
  export function Principal() {
   return (
     <>
