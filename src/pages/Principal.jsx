@@ -51,6 +51,7 @@
                Este portafolio no es solo lo que sé hoy, sino todo lo que estoy construyendo para llegar más lejos.
               </p>
               <div className="flex-shrink-0 mt-6 md:mt-0">
+                
               <img src={foto} alt="Angelica Jiménez" 
           className="w-72 md:w-80 h-auto rounded-3xl shadow-[0_20px_50px_rgba(125,97,194,0.3)] border-4 border-white object-cover"/>
               </div>
@@ -100,7 +101,7 @@
             <span className="font-medium">GitHub</span>
           </a>
           {/* Botón Descargar CV */}
-          <a href='/Hoja_de_vida.pdf' download='Hoja_de_vida_Angelica.pdf' className='mt-2 bg-purple-900 text-white p-4 rounded-xl flex items-center justify-center gap-3 hover:bg-purple-800 transition-transform active:scale-95 font-bold shadow-md'>
+          <a href='/public/Hoja_de_vida.pdf' download='Hoja_de_vida_Angelica.pdf' className='mt-2 bg-purple-900 text-white p-4 rounded-xl flex items-center justify-center gap-3 hover:bg-purple-800 transition-transform active:scale-95 font-bold shadow-md'>
             <img src={Descragar} alt="" className="w-5 h-5 invert" />
              Descargar CV
           </a>
