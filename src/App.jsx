@@ -1,15 +1,18 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {Principal} from './pages/Principal.jsx';
+// 1. Cambia 'principal' por 'Principal' (Mayúscula)
+import { Principal } from './pages/Principal.jsx'; 
+
 function App() {
   return (
     <div>
-
       <Router>
-         <Routes>
-           <Route path='/' element={<Principal />} />
-         </Routes>
+          <Routes>
+            {/* 2. Úsalo con Mayúscula en element */}
+            <Route path='/' element={<Principal />} />
+          </Routes>
       </Router>
     </div>
   )
 }
+
 export default App;
