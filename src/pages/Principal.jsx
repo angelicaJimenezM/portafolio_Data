@@ -5,7 +5,7 @@
  import descargar from '../assets/imagenes/iconos/descargas.png'
  import github from '../assets/imagenes/iconos/github.png'
  import analisis from '../assets/imagenes/certificados/analisis.jpg'
- import coursera from '../assets/imagenes/certificados/coursera.jpg'
+import coursera from '../assets/imagenes/certificados/coursera.jpg'
  import power from '../assets/imagenes/certificados/power.jpg'
  import excel from '../assets/imagenes/certificados/excel.jpg'
  import recursos_humanos from '../assets/imagenes/recursos_humanos.png'
