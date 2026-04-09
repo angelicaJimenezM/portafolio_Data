@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import imagen from '../assets/imagenes/ventas/ventas_image.png';
 import imagen1 from '../assets/imagenes/ventas/ventas_image-1.png';
 import github from '../assets/imagenes/iconos/github.png'
+import video from '../assets/videos/ventas/video-ventas.mp4'
 export function AnalisisVentas() {
     return (
         <div className="bg-gray-50 min-h-screen font-poppins text-gray-800">
@@ -10,8 +11,8 @@ export function AnalisisVentas() {
                 <Link to="/" className="hover:underline font-medium text-2xl"> Inicio </Link>
                 <h1 className="text-3xl font-bold">Dashboard de ventas</h1>
                 <a href="https://github.com/angelicaJimenezM" target="_blank" className=' text-gray-800 p-3 rounded-xl flex items-center gap-3 '>
-                           <img src={github} alt="" className="w-5 h-5" />
-                           <span className="font-medium">GitHub</span>
+                           <img src={github} alt="" className="w-6 h-6" />
+                           <span className="font-medium text-2xl">GitHub</span>
                          </a>
             </header>
 
@@ -50,9 +51,9 @@ export function AnalisisVentas() {
 
                 {/* Sección de Video */}
                 <section id="video" className="mb-12 text-center">
-                    <div className="bg-gray-800 aspect-video rounded-3xl flex items-center justify-center text-white shadow-2xl">
-                        <p className="italic">Aquí puedes embeber tu video demostrativo del Dashboard</p>
-                    </div>
+                   
+                        <video src={video} controls className=" aspect-video rounded-3xl flex items-center justify-center text-white shadow-2xl"></video>
+                 
                 </section>
 
                 {/* Sección de Resumen Técnico */}

@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import imagen from '../assets/imagenes/musica/musica_image.png';
 import imagen1 from '../assets/imagenes/musica/musica_image-1.png';
 import github from '../assets/imagenes/iconos/github.png'
+import video from '../assets/videos/musica/video-musica.mp4'
+
 export function AnalisisMusica() {
     return (
         <div className="bg-gray-50 min-h-screen font-poppins text-gray-800">
@@ -10,8 +12,8 @@ export function AnalisisMusica() {
                 <Link to="/" className="hover:underline font-medium text-2xl"> Inicio </Link>
                 <h1 className="text-3xl font-bold">Dashboard de Datos Musicales</h1>
                 <a href="https://github.com/angelicaJimenezM" target="_blank" className=' text-gray-800 p-3 rounded-xl flex items-center gap-3 '>
-                           <img src={github} alt="" className="w-5 h-5" />
-                           <span className="font-medium">GitHub</span>
+                           <img src={github} alt="" className="w-6 h-6" />
+                           <span className="font-medium text-2xl">GitHub</span>
                          </a>
             </header>
 
@@ -42,29 +44,24 @@ export function AnalisisMusica() {
                           {/* Card 4 */}
                         <div className="bg-purple-50  p-6 rounded-2xl border border-blue-100 transition-transform hover:scale-105">
                             <h3 className="font-bold text-[#75669b] mb-2 uppercase tracking-wider text-sm">SQL</h3>
-                            <p className="text-gray-600 text-sm">Base de dtaos, Limpieza de Datos</p>
+                            <p className="text-gray-600 text-sm">Base de datos, Limpieza de Datos</p>
                         </div>
                     </div>
                 </section>
 
                 {/* Sección de Video */}
                 <section id="video" className="mb-12 text-center">
-                    <div className="bg-gray-800 aspect-video rounded-3xl flex items-center justify-center text-white shadow-2xl">
-                        <p className="italic">Aquí puedes embeber tu video demostrativo del Dashboard</p>
-                    </div>
+                    
+                       <video src={video} controls className=" aspect-video rounded-3xl flex items-center justify-center text-white shadow-2xl"></video>
+                    
                 </section>
 
                 {/* Sección de Resumen Técnico */}
                 <section id="resumen" className="space-y-8 bg-white p-10 rounded-3xl shadow-lg">
                     <div>
-                        <h2>
-                            base de datos
-                        </h2>
-                        <p>Para este proyecto hice uso de la base de datos llamada Chinook Database</p>
-                    </div>
-                    <div>
                         <h2 className="text-2xl font-bold text-[#75669b] mb-4 border-b-2 border-purple-200 pb-2">Objetivo</h2>
                         <p className="leading-relaxed text-gray-700">
+                        <p className='font-bold'>Para este proyecto hice uso de la base de datos llamada Chinook Database.</p>
                            Analizar la base de datos Chinook para identificar patrones en la cantidad de canciones, géneros más producidos, artistas más activos y distribución de álbumes, presentando los hallazgos en un dashboard interactivo desarrollado en Power BI.
                         </p>
                     </div>

@@ -3,6 +3,7 @@ import imagen from '../assets/imagenes/rrhh/rrhh-image.png';
 import imagen1 from '../assets/imagenes/rrhh/rrhh-image-1.png';
 import imagen2 from '../assets/imagenes/rrhh/rrhh-image-2.png';
 import github from '../assets/imagenes/iconos/github.png';
+import video from '../assets/videos/rrhh/video-rrhh.mp4'
 
 export function Analisis_rrhh() {
     return (
@@ -10,10 +11,10 @@ export function Analisis_rrhh() {
             {/* Header con navegación */}
             <header className="bg-[#75669b] p-7 flex gap-8 justify-around items-center shadow-md">
                 <Link to="/" className="hover:underline font-medium text-2xl"> Inicio </Link>
-                <h1 className="text-3xl font-bold">Dashboard de recursos humanos.pbixs</h1>
+                <h1 className="text-3xl font-bold">Dashboard de recursos humanos</h1>
                 <a href="https://github.com/angelicaJimenezM" target="_blank" className=' text-gray-800 p-3 rounded-xl flex items-center gap-3 '>
-                           <img src={github} alt="" className="w-5 h-5" />
-                           <span className="font-medium">GitHub</span>
+                           <img src={github} alt="" className="w-6 h-6" />
+                           <span className="font-medium text-2xl">GitHub</span>
                          </a>
             </header>
 
@@ -51,9 +52,9 @@ export function Analisis_rrhh() {
 
                 {/* Sección de Video */}
                 <section id="video" className="mb-12 text-center">
-                    <div className="bg-gray-800 aspect-video rounded-3xl flex items-center justify-center text-white shadow-2xl">
-                        <p className="italic">Aquí puedes embeber tu video demostrativo del Dashboard</p>
-                    </div>
+                   
+                        <video src={video} controls className=" aspect-video rounded-3xl flex items-center justify-center text-white shadow-2xl"></video>
+                   
                 </section>
 
                 {/* Sección de Resumen Técnico */}
