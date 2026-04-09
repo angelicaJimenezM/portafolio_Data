@@ -12,6 +12,7 @@ import curso from '../assets/imagenes/certificados/curso_1.jpg'
  import musica from '../assets/imagenes/musica.png'
  import ventas from '../assets/imagenes/ventas.png'
  import foto from '../assets/imagenes/foto.jpeg'
+import { Link } from "react-router-dom";
 
  export function Principal() {
   return (
@@ -148,7 +149,7 @@ import curso from '../assets/imagenes/certificados/curso_1.jpg'
         <section id='proyectos' className="py-16 px-6 max-w-7xl mx-auto bg-[#fdfaff]">
   <h2 className='text-3xl font-bold text-[#7d61c2] mb-10'>Proyectos Destacados</h2>
   
-  {/* Grid para que las tarjetas se alineen correctamente */}
+  
   <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
     
     {/* Tarjeta de Proyecto: Música */}
@@ -173,9 +174,10 @@ import curso from '../assets/imagenes/certificados/curso_1.jpg'
         </div>
         
        
-        <a href="https://github.com/angelicaJimenezM/Proyectos-Power-BI.git" target="_blank" className="mt-auto w-full py-3  bg-[#6d56a6]  text-white text-center rounded-xl font-bold hover:opacity-90 transition-opacity shadow-lg">
-          Ver Proyecto
-        </a>
+            <Link to="/AnalisisMusica" className="mt-auto w-full py-3 bg-[#6d56a6] text-white text-center rounded-xl font-bold hover:opacity-90 transition-opacity shadow-lg">
+  Ver Detalles del Proyecto
+</Link>
+        
       </div>
     </article>
 
@@ -193,9 +195,9 @@ import curso from '../assets/imagenes/certificados/curso_1.jpg'
           <span className='text-[11px] bg-purple-50 text-[#ab45ff] px-3 py-1 rounded-full font-bold uppercase'>Excel</span>
           <span className='text-[11px] bg-purple-100 text-[#ab45ff] px-3 py-1 rounded-full font-bold uppercase'>Data Analytics</span>
         </div>
-        <a href="https://github.com/angelicaJimenezM/Proyectos-Power-BI.git" target="_blank" className="mt-auto w-full py-3  bg-[#6d56a6]  text-white text-center rounded-xl font-bold hover:opacity-90 transition-opacity shadow-lg">
-          Ver Proyecto
-        </a>
+       <Link to="/AnalisisVentas" className="mt-auto w-full py-3 bg-[#6d56a6] text-white text-center rounded-xl font-bold hover:opacity-90 transition-opacity shadow-lg">
+  Ver Detalles del Proyecto
+</Link>
       </div>
     </article>
 
@@ -213,9 +215,9 @@ import curso from '../assets/imagenes/certificados/curso_1.jpg'
           <span className='text-[11px] bg-purple-50 text-[#ab45ff] px-3 py-1 rounded-full font-bold uppercase'>Excel</span>
           <span className='text-[11px] bg-purple-100 text-[#ab45ff] px-3 py-1 rounded-full font-bold uppercase'>Talento Humano</span>
         </div>
-        <a href="https://github.com/angelicaJimenezM/Proyectos-Power-BI.git" target="_blank"  className="mt-auto w-full py-3  bg-[#6d56a6] text-white text-center rounded-xl font-bold hover:opacity-90 transition-opacity shadow-lg">
-          Ver Proyecto
-        </a>
+                 <Link to="/Analisis_rrhh" className="mt-auto w-full py-3 bg-[#6d56a6] text-white text-center rounded-xl font-bold hover:opacity-90 transition-opacity shadow-lg">
+  Ver Detalles del Proyecto
+</Link>
       </div>
     </article>
 
